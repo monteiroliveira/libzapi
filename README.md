@@ -1,16 +1,15 @@
 [![Build](https://github.com/BCR-CX/libzapi/actions/workflows/build.yml/badge.svg)](https://github.com/BCR-CX/zapi/actions/workflows/build.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_zapi&metric=alert_status&token=e968e8f9c809ca74e14256de7dc70d7de9923220)](https://sonarcloud.io/summary/new_code?id=BCR-CX_zapi)
-
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_zapi&metric=bugs&token=e968e8f9c809ca74e14256de7dc70d7de9923220)](https://sonarcloud.io/summary/new_code?id=BCR-CX_zapi)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_zapi&metric=code_smells&token=e968e8f9c809ca74e14256de7dc70d7de9923220)](https://sonarcloud.io/summary/new_code?id=BCR-CX_zapi)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_zapi&metric=coverage&token=e968e8f9c809ca74e14256de7dc70d7de9923220)](https://sonarcloud.io/summary/new_code?id=BCR-CX_zapi)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_zapi&metric=duplicated_lines_density&token=e968e8f9c809ca74e14256de7dc70d7de9923220)](https://sonarcloud.io/summary/new_code?id=BCR-CX_zapi)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_zapi&metric=ncloc&token=e968e8f9c809ca74e14256de7dc70d7de9923220)](https://sonarcloud.io/summary/new_code?id=BCR-CX_zapi)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_zapi&metric=reliability_rating&token=e968e8f9c809ca74e14256de7dc70d7de9923220)](https://sonarcloud.io/summary/new_code?id=BCR-CX_zapi)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_zapi&metric=security_rating&token=e968e8f9c809ca74e14256de7dc70d7de9923220)](https://sonarcloud.io/summary/new_code?id=BCR-CX_zapi)
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_zapi&metric=sqale_index&token=e968e8f9c809ca74e14256de7dc70d7de9923220)](https://sonarcloud.io/summary/new_code?id=BCR-CX_zapi)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_zapi&metric=sqale_rating&token=e968e8f9c809ca74e14256de7dc70d7de9923220)](https://sonarcloud.io/summary/new_code?id=BCR-CX_zapi)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_zapi&metric=vulnerabilities&token=e968e8f9c809ca74e14256de7dc70d7de9923220)](https://sonarcloud.io/summary/new_code?id=BCR-CX_zapi)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_libzapi&metric=alert_status&token=5382993ce4e5b6d8b65848ab77a971e2b51077ae)](https://sonarcloud.io/summary/new_code?id=BCR-CX_libzapi)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_libzapi&metric=bugs&token=5382993ce4e5b6d8b65848ab77a971e2b51077ae)](https://sonarcloud.io/summary/new_code?id=BCR-CX_libzapi)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_libzapi&metric=code_smells&token=5382993ce4e5b6d8b65848ab77a971e2b51077ae)](https://sonarcloud.io/summary/new_code?id=BCR-CX_libzapi)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_libzapi&metric=coverage&token=5382993ce4e5b6d8b65848ab77a971e2b51077ae)](https://sonarcloud.io/summary/new_code?id=BCR-CX_libzapi)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_libzapi&metric=duplicated_lines_density&token=5382993ce4e5b6d8b65848ab77a971e2b51077ae)](https://sonarcloud.io/summary/new_code?id=BCR-CX_libzapi)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_libzapi&metric=ncloc&token=5382993ce4e5b6d8b65848ab77a971e2b51077ae)](https://sonarcloud.io/summary/new_code?id=BCR-CX_libzapi)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_libzapi&metric=reliability_rating&token=5382993ce4e5b6d8b65848ab77a971e2b51077ae)](https://sonarcloud.io/summary/new_code?id=BCR-CX_libzapi)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_libzapi&metric=security_rating&token=5382993ce4e5b6d8b65848ab77a971e2b51077ae)](https://sonarcloud.io/summary/new_code?id=BCR-CX_libzapi)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_libzapi&metric=security_rating&token=5382993ce4e5b6d8b65848ab77a971e2b51077ae)](https://sonarcloud.io/summary/new_code?id=BCR-CX_libzapi)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_libzapi&metric=sqale_rating&token=5382993ce4e5b6d8b65848ab77a971e2b51077ae)](https://sonarcloud.io/summary/new_code?id=BCR-CX_libzapi)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=BCR-CX_libzapi&metric=vulnerabilities&token=5382993ce4e5b6d8b65848ab77a971e2b51077ae)](https://sonarcloud.io/summary/new_code?id=BCR-CX_libzapi)
 
 # Libzapi - The Official BCR.CX API Client for Zendesk
 
