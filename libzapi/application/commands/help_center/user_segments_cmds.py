@@ -1,3 +1,5 @@
+"""User Segments Commands"""
+
 from dataclasses import dataclass
 from typing import Optional, Literal
 
@@ -18,10 +20,8 @@ class BaseUserSegmentCmd:
 
 
 @dataclass(frozen=True, slots=True)
-class CreateUserSegmentCmd(BaseUserSegmentCmd):
-    ...
+class CreateUserSegmentCmd(BaseUserSegmentCmd): ...
 
 
 @dataclass(frozen=True, slots=True)
-class UpdateUserSegmentCmd(BaseUserSegmentCmd):
-    ...
+class UpdateUserSegmentCmd(BaseUserSegmentCmd): ...
