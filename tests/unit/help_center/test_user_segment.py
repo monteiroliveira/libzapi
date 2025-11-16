@@ -21,14 +21,11 @@ def test_create_user_segment_command_fail():
     with pytest.raises(ValueError):
         CreateUserSegmentCmd(
             name="Test Segment",
-            user_type="no-user"  # Invalid user_type
+            user_type="no-user-allowed",  # Invalid user_type
         )
 
 
 def test_create_user_segment_command_success():
-    cmd = CreateUserSegmentCmd(
-        name="Test Segment",
-        user_type="signed_in_users"
-    )
+    cmd = CreateUserSegmentCmd(name="Test Segment", user_type="signed_in_users")
     assert cmd.name == "Test Segment"
     assert cmd.user_type == "signed_in_users"
