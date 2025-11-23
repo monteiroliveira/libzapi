@@ -47,6 +47,7 @@ test = [
     "ruff",
     "mypy",
     "hypothesis>=6.147.0",
+    "pytest-mock>=3.15.1",
 ]
 
 [dependency-groups]
