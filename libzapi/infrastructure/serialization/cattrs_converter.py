@@ -6,6 +6,8 @@ import cattrs
 
 __all__ = ["get_converter", "new_converter"]
 
+from libzapi.domain.models.ticketing.ticket import Source
+
 _converter: cattrs.Converter | None = None
 
 
@@ -31,6 +33,24 @@ def _install_default_hooks(conv: cattrs.Converter) -> None:
                 return t[str(v)]  # by name
 
         return _struct
+
+    # Source: map JSON key "from" to field from_
+    def _structure_source(obj: dict, _t: Any) -> Source:
+        return Source(
+            to=obj.get("to"),
+            from_=obj.get("from"),
+            rel=obj.get("rel"),
+        )
+
+    def _unstructure_source(src: Source) -> dict:
+        return {
+            "to": src.to,
+            "from": src.from_,
+            "rel": src.rel,
+        }
+
+    conv.register_structure_hook(Source, _structure_source)
+    conv.register_unstructure_hook(Source, _unstructure_source)
 
     conv.register_structure_hook_factory(
         lambda t: isinstance(t, type) and issubclass(t, Enum),
