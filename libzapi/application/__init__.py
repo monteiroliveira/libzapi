@@ -5,6 +5,8 @@ from libzapi.application.services.agent_availability import AgentAvailability
 from libzapi.application.services.asset_management import AssetManagement
 from libzapi.application.services.conversations import Conversations
 from libzapi.application.services.status import ZendeskStatus
+from libzapi.application.services.voice import Voice
+from libzapi.application.services.wfm import WorkforceManagement
 
 __all__ = [
     "HelpCenter",
@@ -14,4 +16,6 @@ __all__ = [
     "AssetManagement",
     "Conversations",
     "ZendeskStatus",
+    "Voice",
+    "WorkforceManagement",
 ]

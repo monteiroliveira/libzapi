@@ -3,7 +3,7 @@ from typing import Type, TypeVar
 
 import pytest
 
-from libzapi import Ticketing, HelpCenter, CustomData, AgentAvailability, AssetManagement, Conversations
+from libzapi import Ticketing, HelpCenter, CustomData, AgentAvailability, AssetManagement, Conversations, Voice, WorkforceManagement
 
 T = TypeVar("T")
 
@@ -50,6 +50,18 @@ def conversations():
         pytest.skip("Sunshine Conversations credentials not provided. Skipping live API tests.")
 
     return Conversations(base_url=base_url, key_id=key_id, key_secret=key_secret, app_id=app_id)
+
+
+@pytest.fixture(scope="session")
+def voice():
+    """Creates a real Voice client if environment variables are set."""
+    return _generic_zendesk_client(Voice)
+
+
+@pytest.fixture(scope="session")
+def wfm():
+    """Creates a real WorkforceManagement client if environment variables are set."""
+    return _generic_zendesk_client(WorkforceManagement)
 
 
 def _generic_zendesk_client(client_cls: Type[T]) -> T:
